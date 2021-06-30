@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(../images/bg-header.gif);
+    width: 100%;
+    position: relative;
+    /* padding-top: 12px; */
+    background-repeat: repeat-x;/* 入れなくてもいい */
+    /* background-position: left top;デフォルト値 */
+}
+
+/* 画像の文字を表示させるための作業 */
+header a {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 56px;
+}
+
+header p {
+    /*  
+    margin
+        ①marginはボックスを移動させたい時
+        ②folatなどで左右に配置したボックス間の間隔
+        ③見出しや段落など、文章間の間隔
+    padding
+        ①動かしたいものを囲むタグをセレクタにするべき
+    */
+    position: relative;
+    top: 10px;
+    padding-top: 13px;
+    /* width: 224px;
+    margin: 0 auto; */
+    /* ボックス使うときはwidthを使った方がいい */
+}
+
+nav {
+    width: 60%;
+    margin: 0 auto;/* 中央揃え */
+    padding-top: 25px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+#topic {
+    display: flex;
+    width: 80%;
+    position: relative;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+#topicLeft {
+    background-repeat: no-repeat;
+}
+
+#topicLeft img {
+    height: 100%;
+}
+
+#topicRight {
+    color: #fff;
+    background-color: #2d3d54;
+    width: 30%;
+}
+
+#topic time {
+    background: #fff;
+    color: #2d3d54;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hidden {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.cate {
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    padding: 3px 5px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.topicSpan {
+    padding-bottom: 20px;
+}
+
+.pFont {
+    font-size: 12px;
+}
+
+.news {
+    background-color: #2d3d54;
+}
+
+.topicLeftSpan {
+    padding-left: 12px;
+}
+
+#section {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+#topic section p:last-of-type {
+    order: -1;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+#rank dt {
+    flex: 25%;
+    height: 27px;
+    border: 1px solid #ccc;
+    /**degとは角度のこと*/
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+#rank span {
+    padding-top: 7px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
