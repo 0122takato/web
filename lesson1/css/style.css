@@ -91,7 +91,7 @@ nav ul {
     display: inline-block;
     width: 50px;
     text-align: center;
-    padding: 3px 5px;
+    /* padding: 3px 5px; */
     border-radius: 5px;
     color: #fff;
     font-weight: normal;
@@ -107,6 +107,10 @@ nav ul {
 
 .news {
     background-color: #2d3d54;
+}
+
+.topic {
+    background-color: rgb(167, 52, 52);
 }
 
 .topicLeftSpan {
@@ -147,21 +151,32 @@ nav ul {
     -webkit-transform: rotate(-45deg);
 }
 
-#newsDl {
+.newsDl {
     display: flex;
     flex-wrap: wrap;
 }
 
-#newsDl a {
+.newsDl a {
     display: flex;
-    width: 100%;
+    /* margin-left: 140px; */
+    width: 80%;
 }
 
-#newsDl a:nth-child(even), .newsBg{
+.newsDl a:nth-child(even), .newsBg{
     background-image: url(../images/bg-slash.gif);
     background-repeat: repeat;
+    width: 80%;
 }
 
-#newsDl a:hover {
+.newsDl a:hover {
     background-color: rgb(121, 121, 121);
+}
+
+.newsArticle {
+    position: relative;
+    justify-content: center;
+    padding-left: 100px;
+    display: block;
+    line-height: 40px;
+
 }
