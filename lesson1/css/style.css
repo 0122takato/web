@@ -152,15 +152,12 @@ nav ul {
     flex-wrap: wrap;
 }
 
-#newsDl dt {
-    width: 40%;
+#newsDl a {
+    display: flex;
+    width: 100%;
 }
 
-#newsDl dt:nth-child(odd){
+#newsDl a:nth-child(even), .newsBg{
     background-image: url(../images/bg-slash.gif);
     background-repeat: repeat;
-}
-
-#newsDl dd {
-    width: 60%;
 }
