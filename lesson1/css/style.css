@@ -187,6 +187,10 @@ nav ul {
 
 }
 
+.newsDl dd {
+    padding-left: 20px;
+}
+
 .newsDl time {
     padding-right: 20px;
 }
