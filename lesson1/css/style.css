@@ -57,7 +57,7 @@ nav ul {
     display: flex;
     width: 80%;
     position: relative;
-    justify-content: center;
+    /* justify-content: center; */
     padding-left: 100px;
 }
 
@@ -159,15 +159,19 @@ nav ul {
 .newsDl a {
     display: flex;
     /* margin-left: 140px; */
-    width: 80%;
+    width: 70%;
     text-decoration: none;
     color: black;
+}
+
+.newsDl a, .newsBg{
+    padding-left: 20px;
+    width: 70%;
 }
 
 .newsDl a:nth-child(even), .newsBg{
     background-image: url(../images/bg-slash.gif);
     background-repeat: repeat;
-    width: 80%;
 }
 
 .newsDl a:hover {
@@ -182,7 +186,7 @@ nav ul {
     line-height: 40px;
 
 }
-.newsBg, .newsDl dd, .newsDl time {
+.newsDl dd, .newsDl time {
     padding-left: 20px;
 }
 
