@@ -146,3 +146,21 @@ nav ul {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
 }
+
+#newsDl {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#newsDl dt {
+    width: 40%;
+}
+
+#newsDl dt:nth-child(odd){
+    background-image: url(../images/bg-slash.gif);
+    background-repeat: repeat;
+}
+
+#newsDl dd {
+    width: 60%;
+}
