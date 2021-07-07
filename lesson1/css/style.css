@@ -248,3 +248,12 @@ main {
     display: block;
     width: 315px;
 }
+
+.tipsDiv time {
+    background-color: #b5d264;
+    color: black;
+}
+
+.tipsDiv div{
+    color: black;
+}
