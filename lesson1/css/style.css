@@ -254,6 +254,10 @@ main {
 .tipsDiv time {
     background-color: #b5d264;
     color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 .tipsDiv div{
