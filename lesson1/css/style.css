@@ -263,3 +263,16 @@ main {
 .tipsDiv div{
     color: black;
 }
+
+.tipsDiv {
+    position: relative;
+}
+
+.tipsDiv div {
+    padding-top: 215px;
+}
+
+.tipsDiv img {
+    top: 0;
+    position: absolute;
+}
