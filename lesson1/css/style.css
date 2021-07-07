@@ -125,10 +125,12 @@ main {
     display: inline-block;
     width: 50px;
     text-align: center;
-    /* padding: 3px 5px; */
+    padding: 3px 5px;
     border-radius: 5px;
     color: #fff;
     font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 14px;
 }
 
 .topicSpan {
@@ -196,6 +198,17 @@ main {
     width: 100%;
     text-decoration: none;
     color: black;
+    text-align: center;
+    font-size: 1.0rem;
+}
+
+.newsDl time {
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.newsDl dd {
+    padding-left: 20px;
 }
 
 .newsDl a, .newsBg{
