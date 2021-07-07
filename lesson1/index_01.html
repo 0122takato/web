@@ -12,7 +12,7 @@
 	<header>
 		<p><a href="#">SAMPLE SITE</a></p>
 	</header>
-	<nav>
+	<nav id="nav">
 		<ul>
 			<li><a href="#">HOME</a></li>
 			<li><a href="#">ABOUT</a></li>
@@ -22,13 +22,11 @@
 			<li><a href="#">BLOG</a></li>
 		</ul>
 	</nav>
-	<div id="center">
-		<h1 class="hidden">スキルアップのための情報満載！SAMPLE SITE </h1>
+	<div id="all">
 		<main>
+			<h1 class="hidden">スキルアップのための情報満載！SAMPLE SITE </h1>
 			<article id="topic">
-				<div id="topicLeft">
-					<img src="./images/hot-topic.jpg" alt="コードが書かれたTOPICの画像">
-				</div>
+				<img src="./images/hot-topic.jpg" alt="コードが書かれたTOPICの画像">
 				<div id="topicRight">
 					<h2 class="hidden">HOT TOPIC</h2>
 					<p class="topicSpan"><time datetime="2015-09-01">2015.09.01 TUE</time></p>
@@ -97,94 +95,96 @@
 				</section>
 			</article>
 		</main>
-		<aside id="rank">
-			<h2>RANKING</h2>
-			<dl>
-				<div>
-					<dt id="gold"><span>1位</span></dt>
-					<dd><a href="#">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</a></dd>
-					<dd><img src="./images/ranking.jpg" alt="グラフの画像"></dd>
-				</div>
-				<div>
-					<dt>2位</dt>
-					<dd><a href="#">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</a></dd>
-					<dd><img src="./images/ranking.jpg" alt="グラフの画像"></dd>
-				</div>
-				<div>
-					<dt>3位</dt>
-					<dd><a href="#">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</a></dd>
-					<dd><img src="./images/ranking.jpg" alt="グラフの画像"></dd>
-				</div>
-				<div>
-					<dt>4位</dt>
-					<dd><a href="#">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</a></dd>
-					<dd><img src="./images/ranking.jpg" alt="グラフの画像"></dd>
-				</div>
-				<div>
-					<dt>5位</dt>
-					<dd><a href="#">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</a></dd>
-					<dd><img src="./images/ranking.jpg" alt="グラフの画像"></dd>
-				</div>
-				<div>
-					<dt>6位</dt>
-					<dd><a href="#">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</a></dd>
-					<dd><img src="./images/ranking.jpg" alt="グラフの画像"></dd>
-				</div>
-				<div>
-					<dt>7位</dt>
-					<dd><a href="#">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</a></dd>
-					<dd><img src="./images/ranking.jpg" alt="グラフの画像"></dd>
-				</div>
-			</dl>
-		</aside>
-		<nav>
-			<h2>DOCUMENTS</h2>
-			<section>
-				<h3>HTML5</h3>
-				<ul>
-					<li><a href="#">追加された要素</a></li>
-					<li><a href="#">削除された要素</a></li>
-					<li><a href="#">意味が変わった要素</a></li>
-					<li><a href="#">HTML5のコンテンツモデル</a></li>
-				</ul>
-			</section>
-			<section>
-				<h3>CSS3</h3>
-				<ul>
-					<li><a href="#">追加されたプロパティ</a></li>
-					<li><a href="#">追加されたセレクタ</a></li>
-					<li><a href="#">追加された単位</a></li>
-				</ul>
-			</section>
-			<section>
-				<h3>JavaScript</h3>
-				<ul>
-					<li><a href="#">JavaScriptの言語仕様</a></li>
-					<li><a href="#">ECMAScriptとは？</a></li>
-					<li><a href="#">jQueryとは？</a></li>
-				</ul>
-			</section>
-			<section>
-				<h3>Sass, Less, Stylus</h3>
-				<ul>
-					<li>準備中</li>
-				</ul>
-			</section>
-			<section>
-				<h3>TypeScript</h3>
-				<ul>
-					<li>準備中</li>
-				</ul>
-			</section>
-			<section>
-				<h3>SEARCH</h3>
-				<form action="#" method="get">
-					<label for="textfield">キーワード入力:</label>
-					<input name="textfield" type="text" id="textfield" placeholder="SEARCH">
-				</form>
-				<p>サイト内の文章を検索できます。</p>
-			</section>
-		</nav>
+		<div id="right">
+			<aside id="rank">
+				<h2>RANKING</h2>
+				<dl>
+					<div>
+						<dt id="gold"><span>1位</span></dt>
+						<dd><a href="#">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</a></dd>
+						<dd><img src="./images/ranking.jpg" alt="グラフの画像"></dd>
+					</div>
+					<div>
+						<dt>2位</dt>
+						<dd><a href="#">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</a></dd>
+						<dd><img src="./images/ranking.jpg" alt="グラフの画像"></dd>
+					</div>
+					<div>
+						<dt>3位</dt>
+						<dd><a href="#">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</a></dd>
+						<dd><img src="./images/ranking.jpg" alt="グラフの画像"></dd>
+					</div>
+					<div>
+						<dt>4位</dt>
+						<dd><a href="#">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</a></dd>
+						<dd><img src="./images/ranking.jpg" alt="グラフの画像"></dd>
+					</div>
+					<div>
+						<dt>5位</dt>
+						<dd><a href="#">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</a></dd>
+						<dd><img src="./images/ranking.jpg" alt="グラフの画像"></dd>
+					</div>
+					<div>
+						<dt>6位</dt>
+						<dd><a href="#">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</a></dd>
+						<dd><img src="./images/ranking.jpg" alt="グラフの画像"></dd>
+					</div>
+					<div>
+						<dt>7位</dt>
+						<dd><a href="#">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</a></dd>
+						<dd><img src="./images/ranking.jpg" alt="グラフの画像"></dd>
+					</div>
+				</dl>
+			</aside>
+			<nav>
+				<h2>DOCUMENTS</h2>
+				<section>
+					<h3>HTML5</h3>
+					<ul>
+						<li><a href="#">追加された要素</a></li>
+						<li><a href="#">削除された要素</a></li>
+						<li><a href="#">意味が変わった要素</a></li>
+						<li><a href="#">HTML5のコンテンツモデル</a></li>
+					</ul>
+				</section>
+				<section>
+					<h3>CSS3</h3>
+					<ul>
+						<li><a href="#">追加されたプロパティ</a></li>
+						<li><a href="#">追加されたセレクタ</a></li>
+						<li><a href="#">追加された単位</a></li>
+					</ul>
+				</section>
+				<section>
+					<h3>JavaScript</h3>
+					<ul>
+						<li><a href="#">JavaScriptの言語仕様</a></li>
+						<li><a href="#">ECMAScriptとは？</a></li>
+						<li><a href="#">jQueryとは？</a></li>
+					</ul>
+				</section>
+				<section>
+					<h3>Sass, Less, Stylus</h3>
+					<ul>
+						<li>準備中</li>
+					</ul>
+				</section>
+				<section>
+					<h3>TypeScript</h3>
+					<ul>
+						<li>準備中</li>
+					</ul>
+				</section>
+				<section>
+					<h3>SEARCH</h3>
+					<form action="#" method="get">
+						<label for="textfield">キーワード入力:</label>
+						<input name="textfield" type="text" id="textfield" placeholder="SEARCH">
+					</form>
+					<p>サイト内の文章を検索できます。</p>
+				</section>
+			</nav>
+		</div>
 	</div>
 	<footer>
 		<nav>
