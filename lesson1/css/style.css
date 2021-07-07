@@ -62,17 +62,17 @@ header p {
 
 #all {
     display: flex;
-    width: 80%;
-    margin: 30px auto 40px;
+    /* margin: 30px auto 40px; */
+    margin: 0 auto;/*中央揃え
+
 }
 
 #right {
-    width: 20%;
-    padding-left: 40px;
+    /* width: 20%; */
 }
 
 main {
-    margin: 0 auto;/* 中央揃え */
+    /* margin: 0 auto;中央揃え */
     display: block;
     width: 660px;
 }
@@ -222,24 +222,17 @@ main {
 }
 #tips {
     display: block;
-    justify-content: space-between;
+    width: 100%;
 }
 
 #tipsBlock {
-    display: block;
+    display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    justify-content: space-around;
 }
 
 #tipsBlock a {
     display: block;
-    width: 40%;
-    position: relative;
+    width: 50%;
 }
 
-.tipsDiv:nth-of-type(odd) {
-    float: left;
-}
-.tipsDiv:nth-of-type(even) {
-    float: right;
-}
