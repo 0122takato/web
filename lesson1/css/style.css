@@ -62,14 +62,19 @@ header p {
 
 #all {
     display: flex;
-    width: 970px;
+    width: 80%;
     margin: 30px auto 40px;
+}
+
+#right {
+    width: 20%;
+    padding-left: 40px;
 }
 
 main {
     margin: 0 auto;/* 中央揃え */
     display: block;
-    /* width: 50%; */
+    width: 660px;
 }
 
 #nav {
@@ -85,7 +90,6 @@ main {
 }
 
 #topic {
-    width: 80%;
     position: relative;
     margin: 0 auto;/* 中央揃え */
     background-color: #2d3d54;
@@ -162,14 +166,14 @@ main {
     margin-bottom: 0;
 }
 
-#rank dt {
+/* #rank dt { */
     /* flex: 25%;
     height: 27px;
     border: 1px solid #ccc; */
     /**degとは角度のこと*/
     /* transform: rotate(45deg);
     -webkit-transform: rotate(45deg); */
-}
+/* } */
 
 /* #rank span {
     padding-top: 7px;
@@ -180,10 +184,6 @@ main {
     /* transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
 } */
-
-#right {
-    /* width: 20%; */
-}
 
 .newsDl {
     display: flex;
@@ -220,15 +220,26 @@ main {
     line-height: 40px;
     padding-top: 40px;
 }
+#tips {
+    display: block;
+    justify-content: space-between;
+}
 
 #tipsBlock {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     width: 100%;
 }
 
-#tips a {
+#tipsBlock a {
     display: block;
-    justify-content: space-between;
-    width: 400px;
+    width: 40%;
+    position: relative;
+}
+
+.tipsDiv:nth-of-type(odd) {
+    float: left;
+}
+.tipsDiv:nth-of-type(even) {
+    float: right;
 }
