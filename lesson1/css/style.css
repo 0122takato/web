@@ -350,10 +350,10 @@ nav h2{
     margin: 0px;
     list-style: none;
     padding-left: 2em;
-    line-height: 20px;
 }
 
 .list_triangle li {
+    line-height: 30px;
 }
 
 .list_triangle > li {
@@ -370,4 +370,16 @@ nav h2{
     border: 0.3em solid transparent;
     border-left: 0.4em solid black;
     content: "";
+}
+nav section {
+    padding-top: 20px;
+}
+
+nav h3 {
+    border: 4px solid;
+    border-color: #d03c56;
+    border-bottom: transparent;
+    border-top: transparent;
+    border-right: transparent;
+    padding-left: 4px;
 }
