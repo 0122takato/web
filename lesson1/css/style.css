@@ -189,6 +189,18 @@ main {
     -webkit-transform: rotate(-45deg);
 }
 
+#gold {
+    background-color: #dab413;
+}
+
+#silver {
+    background-color: #6e7b84;
+}
+
+#dou {
+    background-color: #a0541a;
+}
+
 .newsDl {
     display: flex;
     flex-wrap: wrap;
