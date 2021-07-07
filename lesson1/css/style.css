@@ -408,3 +408,31 @@ nav section {
     margin-left: 20px;
     padding-top: 20px;
 }
+
+.footer {
+    background-color: #2d3d54;
+}
+
+footer ul {
+    display: flex;
+    float: right;
+    padding-top: 10px;
+    padding-right: 40px;
+}
+
+.footer li a {
+    color: #777;
+    text-decoration: underline;
+    padding-left: 10px;
+}
+
+.footer li a:hover {
+    color: white;
+}
+
+.footer p {
+    color:#fff;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
