@@ -168,24 +168,26 @@ main {
     margin-bottom: 0;
 }
 
-/* #rank dt { */
-    /* flex: 25%;
+#rank dt {
+    flex: 25%;
     height: 27px;
-    border: 1px solid #ccc; */
+    border: 1px solid #ccc;
+    width: 25px;
+    padding-bottom: 5px;
     /**degとは角度のこと*/
-    /* transform: rotate(45deg);
-    -webkit-transform: rotate(45deg); */
-/* } */
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
 
-/* #rank span {
+#rank span {
     padding-top: 7px;
     display: inline-block;
     width: 25px;
     height: 25px;
-    text-align: center; */
-    /* transform: rotate(-45deg);
+    text-align: center; 
+    transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
-} */
+}
 
 .newsDl {
     display: flex;
@@ -216,9 +218,10 @@ main {
     /* width: 70%; */
 }
 
-.newsDl a:nth-child(even), .newsBg{
+.newsDl a:nth-child(even), .newsBg, #rank h2{
     background-image: url(../images/bg-slash.gif);
     background-repeat: repeat;
+    line-height: 40px;
 }
 
 .newsDl a:hover {
