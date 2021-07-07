@@ -247,6 +247,8 @@ main {
 #tipsBlock a {
     display: block;
     width: 315px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .tipsDiv time {
