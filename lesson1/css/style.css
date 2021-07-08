@@ -79,6 +79,11 @@ header p {
     transition: 0.15s;
 }
 
+#nav ul {
+    width: 60%;
+    margin: 0 auto; 
+}
+
 #all {
     display: flex;
     width: 100%;
@@ -97,8 +102,8 @@ main {
 }
 
 #nav {
-    width: 60%;
     margin: 0 auto;/* 中央揃え */
+    box-shadow:0px 10px 10px -5px rgba(0,0,0,0.5);
     padding-top: 25px;
 }
 
@@ -288,6 +293,7 @@ main {
     width: 315px;
     margin-bottom: 20px;
     margin-top: 20px;
+    box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.5);
 }
 
 .tipsDiv time {
@@ -411,6 +417,7 @@ nav section {
 
 .footer {
     background-color: #2d3d54;
+    margin-top: 60px;
 }
 
 footer ul {
