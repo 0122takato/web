@@ -60,7 +60,16 @@ header p {
     /* ボックス使うときはwidthを使った方がいい */
 }
 
-#nav a {
+#firstList{
+    background-color: #d03c56;
+    border-radius: 7px;
+}
+
+#firstList a {
+    color: white;
+}
+
+#nav a{
     display: inline-block;
     width: 100px;
     height: 30px;
@@ -69,6 +78,9 @@ header p {
     border-radius: 7px;
     font-size: 1em;
     transition: 0.15s;
+}
+
+.black a {
     color: black;
 }
 
@@ -76,6 +88,7 @@ header p {
     background-color: #d03c56;
     color: #fff;
     transition: 0.15s;
+    border-radius: 7px;
 }
 
 #nav ul {
