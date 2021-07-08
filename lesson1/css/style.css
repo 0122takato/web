@@ -68,7 +68,6 @@ header p {
     text-align: center;
     border-radius: 7px;
     font-size: 1em;
-    /* letter-spacing: 1px; */
     transition: 0.15s;
     color: black;
 }
