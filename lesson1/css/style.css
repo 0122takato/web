@@ -125,9 +125,13 @@ main {
     background-repeat: no-repeat;
 }
 
-/* #topicLeft img {
-    height: 100%;
-} */
+#topicRight h2 {
+    padding-top: 40px;
+}
+
+#topicRight h3 {
+    padding-top: 10px;
+}
 
 
 #topic time {
@@ -328,6 +332,7 @@ main {
 
 .tipsDiv div {
     padding-top: 215px;
+    padding-left: 10px;
 }
 
 .tipsDiv img {
