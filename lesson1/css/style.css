@@ -206,6 +206,15 @@ main {
 
 #rank a:hover {
     background-color: rgb(121, 121, 121);
+    color: white;
+}
+
+.white {
+    color: #ccc;
+}
+
+.gray {
+    color: gray;
 }
 
 #rank span {
@@ -216,6 +225,7 @@ main {
     text-align: center; 
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
+
 }
 
 #gold {
