@@ -315,6 +315,10 @@ main {
     justify-content: space-around;
 }
 
+#topic:hover {
+    opacity: 0.6;
+}
+
 #tipsBlock a {
     display: block;
     width: 315px;
