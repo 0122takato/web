@@ -222,11 +222,6 @@ main {
     -webkit-transform: rotate(45deg);
 }
 
-#rank a:hover {
-    background-color: rgb(121, 121, 121);
-    color: white;
-}
-
 .white {
     color: #ccc;
 }
@@ -293,8 +288,12 @@ main {
     line-height: 40px;
 }
 
-.newsDl a:hover , .tipsDiv:hover{
+.newsDl a:hover {
     background-color: rgb(121, 121, 121);
+}
+
+.tipsDiv:hover ,#rank a:hover{
+    opacity: 0.6;
 }
 
 .newsArticle {
