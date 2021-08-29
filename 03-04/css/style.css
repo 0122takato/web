@@ -1,0 +1,294 @@
+@charset "UTF-8";
+
+/* base */
+html
+{
+  font-size: 62.5%; /* 10px */
+}
+body {
+  font-family:
+    Raleway,
+    "Hiragino Kaku Gothic ProN",
+    Meiryo,
+    sans-serif;
+  background-color: #151515;
+  color: #333;
+}
+h1
+{
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 700;
+  padding-bottom: 50px;
+}
+h2
+{
+  position: relative;
+  display: inline-block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: .2rem;
+  margin-bottom: 60px;
+}
+h2::before,
+h2::after
+{
+  position: absolute;
+  content: '';
+  background-color: #999;
+  width: 100%;
+  height: 1px;
+}
+h2::before
+{
+  bottom: -10px;
+  left: 0;
+}
+h2::after
+{
+  bottom: -15px;
+  left: 0;
+}
+h3
+{
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+#wrapper
+{
+  background-image: url(../images/bg.png);
+  background-position: left bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+article
+{
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+p
+{
+  font-size: 1.3rem;
+  line-height: 2.3rem;
+}
+
+/* header */
+header
+{
+  display: flex;
+  flex-direction: column;
+  padding: 70px 30px 80px;
+}
+.sub__title
+{
+  color: #fff;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  padding-bottom: 30px;
+  text-align: center;
+  order: -1;
+}
+.sub__title::before,
+.sub__title::after
+{
+  display: block;
+  content: '';
+  background-color: #fff;
+  margin: 0 auto;
+  width: 80%;
+  height: 2px;
+}
+.sub__title::before
+{
+  top: 0;
+  margin-bottom: 1rem;
+}
+.sub__title::after
+{
+  bottom: 0;
+  margin-top: 1rem;
+}
+.site__description
+{
+  color: #888;
+  font-size: 1.6rem;
+  padding-bottom: 50px;
+}
+
+header button
+{
+  color: #fff;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 4px;
+  margin: 10px;
+  width: 200px;
+}
+.learn__more
+{
+  background-color: #afa58d;
+}
+.send__message
+{
+  background-color: #D29E04;
+}
+
+/* about me */
+#aboutMe
+{
+  background-color: #fff;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+#aboutMe p
+{
+  padding-bottom: 30px;
+}
+
+/* works */
+#works
+{
+  background-color: #383634;
+  color: #fff;
+}
+#works > div
+{
+  padding-top: 30px;
+}
+#works .prod__explanation
+{
+  padding: 20px;
+  line-height: 2.5rem;
+  background-color: rgba(56,54,52, .8);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: hue;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  overflow-y: auto;
+}
+#works section > p
+{
+  display: none;
+}
+#works section:nth-of-type(1) .prod__explanation
+{
+  background-image: url(../images/tree.jpg);
+}
+#works section:nth-of-type(2) .prod__explanation
+{
+  background-image: url(../images/building.jpg);
+}
+#works section:nth-of-type(3) .prod__explanation
+{
+  background-image: url(../images/lake.jpg);
+}
+#works section:nth-of-type(4) .prod__explanation
+{
+  background-image: url(../images/sky.jpg);
+}
+#works section .use__tools {
+  padding-bottom: 20px;
+}
+
+#works button {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.15);
+  letter-spacing: 1px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 65%;
+  overflow: nowrap;
+}
+
+/* my skills */
+#mySkills
+{
+  background-color: #fff;
+}
+#mySkills div
+{
+  padding-top: 20px;
+  margin: 0 auto;
+  width: 80%;
+}
+#mySkills section
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+#mySkills i
+{
+  color: #f1b400;
+  font-size: 5rem;
+  border: 4px solid #f1b400;
+  border-radius: 50%;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+  width: 100px;
+  height: 100px;
+  line-height: 92px;
+  order: -1;
+}
+
+/* contact */
+#contact h2
+{
+  color: #fff;
+}
+#contact div
+{
+  margin: 0 auto;
+  width: 80%;
+}
+#contact dl
+{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#contact input[type="text"],
+textarea
+{
+  display: block;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: start;
+}
+textarea
+{
+  height: 150px;
+}
+#contact button
+{
+  display: block;
+  color: rgba(255, 255, 255, 0.6);  
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 200px;
+}
+
+/* footer */
+footer
+{
+  color: #fff;;
+}
+footer p small
+{
+  font-size: 1.3rem;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
