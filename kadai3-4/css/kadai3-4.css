@@ -12,18 +12,19 @@ body {
     text-align: center;
 }
 
-.page1 {
-
-}
-
 .titlePro {
     color: white;
-    border: solid;
+    border: 2px solid;
     border-left: transparent;
     border-right: transparent;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-top: 20px;
-    width: 60%;
+    margin-top: 70px;
     display: inline-block;
+    font-size: 18px;
+    width: 70%;
+}
+
+img{
+    width: 100%;
 }
