@@ -12,6 +12,10 @@ body {
     text-align: center;
 }
 
+.page1 {
+    height: 70%;
+}
+
 .titlePro {
     color: white;
     border: 2px solid;
@@ -38,12 +42,20 @@ body {
 .buttonDiv {
     display: flex;
     flex-direction: column;
+    padding-top: 50px;
+    height: 180px;
+    justify-content: space-around;
 }
 
 .buttonDiv a {
     text-decoration: none;
     color: white;
-    width: 50%;
+    width: 40%;
+    border-radius: 8px; /* 半径が8pxの角丸 */
+    height: 40px;
+    font-size: medium;
+    margin: auto;
+    padding-top: 15px;
 }
 
 #buttonLearn {
