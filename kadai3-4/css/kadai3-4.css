@@ -72,13 +72,14 @@ img{
 
 .aboutSection {
     background-color: white;
-    padding-top: 18%;
 }
 
 .myTitle {
     font-size: 2rem;
     text-decoration: underline double;
-    padding-bottom: 75px;
+    padding-bottom: 20%;
+    padding-top: 20%;
+
 }
 
 .spaceSpan {
@@ -86,4 +87,9 @@ img{
     width: 88%;
     margin: auto;
     font-size: 1.3rem;
+}
+
+.works {
+    background-color: #383634;
+    color: white;
 }
