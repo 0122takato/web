@@ -92,11 +92,11 @@ img{
 .works {
     background-color: #383634;
     color: white;
+    padding-bottom: 15%;
 }
 
 .case {
     position: relative;
-    height: 50%;
 }
 
 .case img {
@@ -108,8 +108,21 @@ img{
     height: 160px;
 }
 
-.caseDetail{
+.caseDetail {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: calc(30% - 25px);
+    text-align: center;
+    width: 100%;
+}
+
+.caseHref {
+    color: white;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 4px; /* 半径が8pxの角丸 */
+}
+
+.caseText {
+    line-height: 2em;
+    font-size: 1.2rem
 }
