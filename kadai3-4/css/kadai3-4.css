@@ -9,7 +9,7 @@ html {
 
 body {
     background-color: #151515;
-
+    text-align: center;
 }
 
 .page1 {
@@ -21,4 +21,9 @@ body {
     border: solid;
     border-left: transparent;
     border-right: transparent;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    width: 60%;
+    display: inline-block;
 }
