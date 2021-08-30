@@ -9,5 +9,16 @@ html {
 
 body {
     background-color: #151515;
-    
+
+}
+
+.page1 {
+
+}
+
+.titlePro {
+    color: white;
+    border: solid;
+    border-left: transparent;
+    border-right: transparent;
 }
