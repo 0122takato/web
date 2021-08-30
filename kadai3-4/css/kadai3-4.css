@@ -72,5 +72,10 @@ img{
 
 .aboutSection {
     background-color: white;
-    padding-top: 20%;
+    padding-top: 18%;
+}
+
+.myTitle {
+    font-size: 2rem;
+    text-decoration: underline double;
 }
