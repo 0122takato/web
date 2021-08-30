@@ -42,6 +42,16 @@ body {
 
 .buttonDiv a {
     text-decoration: none;
+    color: white;
+    width: 50%;
+}
+
+#buttonLearn {
+    background-color: #888;
+}
+
+#buttonSend {
+    background-color: #D29E04;
 }
 
 img{
