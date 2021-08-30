@@ -25,6 +25,10 @@ body {
     width: 70%;
 }
 
+.name {
+    font-size: 4rem;
+    color: white;
+}
 img{
     width: 100%;
 }
