@@ -33,6 +33,16 @@ body {
 .subTitle {
     color: #888;
 }
+
+.buttonDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonDiv a {
+    text-decoration: none;
+}
+
 img{
     width: 100%;
 }
