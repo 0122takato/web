@@ -96,10 +96,16 @@ img{
 
 .case {
     position: relative;
+    height: 50%;
 }
 
 .case img {
     opacity: 0.2;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 0;
+    height: 160px;
 }
 
 .caseDetail{
