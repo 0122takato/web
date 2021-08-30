@@ -156,3 +156,47 @@ img{
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
+.contact {
+    padding-bottom: 40px;
+}
+
+.contact h2 {
+    color: white;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm input[type=text],
+.contactForm textarea {
+    background-color: rgba(255, 255, 255, 0.05);
+    width: 80%;
+    margin: auto;
+}
+
+.contact input[type=text] {
+    margin-bottom: 20px;
+}
+
+.contactForm textarea {
+    height: 120px;
+}
+
+.contactForm input[type=submit] {
+    border-radius: 5px;
+    background-color: #151515;
+    color: rgba(255, 255, 255, 0.6);
+    border: 1px solid;
+    height: 40px;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.footer {
+    color: white;
+    font-size: small;
+}
