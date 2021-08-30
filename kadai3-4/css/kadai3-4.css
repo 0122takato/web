@@ -12,10 +12,6 @@ body {
     text-align: center;
 }
 
-.page1 {
-    height: 70%;
-}
-
 .titlePro {
     color: white;
     border: 2px solid;
@@ -58,6 +54,10 @@ body {
     padding-top: 15px;
 }
 
+.page1 {
+    padding-bottom: 80px;
+}
+
 #buttonLearn {
     background-color: #888;
 }
@@ -68,4 +68,9 @@ body {
 
 img{
     width: 100%;
+}
+
+.aboutSection {
+    background-color: white;
+    padding-top: 20%;
 }
