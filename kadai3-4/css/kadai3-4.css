@@ -179,8 +179,14 @@ img{
     border-color: rgba(255, 255, 255, 0.4);
 }
 
+.contactForm ::placeholder{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
 .contact input[type=text] {
     margin-bottom: 20px;
+    height: 40px;
 }
 
 .contactForm textarea {
