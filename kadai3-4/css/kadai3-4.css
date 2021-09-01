@@ -175,6 +175,8 @@ img{
     background-color: rgba(255, 255, 255, 0.05);
     width: 80%;
     margin: auto;
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.4);
 }
 
 .contact input[type=text] {
@@ -188,7 +190,7 @@ img{
 .contactForm input[type=submit] {
     border-radius: 5px;
     background-color: #151515;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.4);
     border: 1px solid;
     height: 40px;
     width: 60%;
