@@ -19,30 +19,42 @@ header {
     object-fit: cover;
 }
 
-.showProduct h2, .showProduct ul {
+.showProduct h2, .productList {
     padding-top: 40px;
     text-align: center;
 }
 
-.showProduct ul {
+.productList {
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
-.showProduct li {
+.productList li {
     width: 20%;
     list-style: none;
 }
 
 .productImg {
-    width: 50%;
+    width: 70%;
+    margin-left: 150px;
 }
 
 .product {
     display: flex;
+    padding-top: 40px;
 }
 
-.product div {
+.productImgBox {
     width: 50%;
+}
+
+.productDetail {
+    padding-top: 40px;
+    display: flex;
+    justify-content: left;
+}
+
+.productDetail dd {
+    padding-left: 120px;
 }
