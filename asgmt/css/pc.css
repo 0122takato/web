@@ -34,3 +34,15 @@ header {
     width: 20%;
     list-style: none;
 }
+
+.productImg {
+    width: 50%;
+}
+
+.product {
+    display: flex;
+}
+
+.product div {
+    width: 50%;
+}
