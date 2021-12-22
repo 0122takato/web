@@ -19,6 +19,10 @@ header {
     object-fit: cover;
 }
 
+.showProduct {
+    margin-bottom: 100px;
+}
+
 .showProduct h2, .productList {
     padding-top: 40px;
     text-align: center;
@@ -37,7 +41,7 @@ header {
 
 .productImg {
     width: 500px;
-    margin-left: 150px;
+    /* margin-left: 150px; */
 }
 
 .product {
@@ -59,6 +63,7 @@ header {
 
 .productDetailBox p {
     padding-top: 40px;
+    overflow-wrap: break-word;
 }
 
 .productDetail {
@@ -70,4 +75,31 @@ header {
 
 .productDetail dd {
     padding-right: 100px;
+}
+
+.part2 {
+    background-image: url(../img/muji13.jpg);
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+    height: 800px;
+    padding-top: 400px;
+}
+
+.part2Box {
+    background-color: #CEF7FF;
+    width: 60%;
+    height: 400px;
+    display: table;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 30%;
+}
+
+.part2Box p {
+    font-size: 20px;
+    line-height: 3em;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
+    overflow-wrap: break-word;
 }
