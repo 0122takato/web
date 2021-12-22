@@ -43,18 +43,31 @@ header {
 .product {
     display: flex;
     padding-top: 40px;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .productImgBox {
     width: 50%;
 }
 
+.productDetailBox a {
+    color: black;
+    font-size: 26px;
+}
+
+.productDetailBox p {
+    padding-top: 40px;
+}
+
 .productDetail {
     padding-top: 40px;
     display: flex;
     justify-content: left;
+    padding-bottom: 60px;
 }
 
 .productDetail dd {
-    padding-left: 120px;
+    padding-right: 100px;
 }
