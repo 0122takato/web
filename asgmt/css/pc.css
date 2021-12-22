@@ -18,3 +18,7 @@ header {
     object-position: 50% -300px;
     object-fit: cover;
 }
+
+.showProduct h2, .showProduct ul {
+    text-align: center;
+}
