@@ -25,3 +25,8 @@ header {
     text-decoration: none;
     line-height: 2em;
 }
+
+.productImg {
+    text-align: center;
+    width: 100%;
+}
