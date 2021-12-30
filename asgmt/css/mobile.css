@@ -30,3 +30,11 @@ header {
     text-align: center;
     width: 100%;
 }
+
+.price {
+    font-size: 25px;
+}
+
+.capacity {
+    font-size: 20px;
+}
