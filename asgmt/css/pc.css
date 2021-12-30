@@ -111,3 +111,15 @@ header {
     overflow-wrap: break-word;
 }
 
+.part4 {
+    text-align: center;
+}
+
+.part4 p {
+    padding-bottom: 100px;
+    font-size: 25px;
+}
+
+.part4 img {
+    width: 100%;
+}
