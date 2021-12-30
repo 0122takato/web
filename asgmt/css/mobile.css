@@ -15,3 +15,13 @@ header {
 #topImg {
     width: 100%;
 }
+
+.showProduct {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.productList {
+    text-decoration: none;
+    line-height: 2em;
+}
