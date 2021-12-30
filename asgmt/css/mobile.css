@@ -37,4 +37,18 @@ header {
 
 .capacity {
     font-size: 20px;
+    margin-left: 20px;
+}
+
+.product {
+    justify-content: center;
+}
+
+.product p {
+    overflow-wrap: break-word;
+    text-align: left;
+}
+
+small {
+    padding-top: 80px;
 }
