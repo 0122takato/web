@@ -79,13 +79,20 @@ header {
 
 .part2 {
     background-image: url(../img/muji13.jpg);
+}
+
+.part3 {
+    background-image: url(../img/muji3.jpg);
+}
+
+.part {
     background-size: 100% 600px;
     background-repeat: no-repeat;
     height: 700px;
     padding-top: 400px;
 }
 
-.part2Box {
+.partBox {
     background-color: #CEF7FF;
     width: 60%;
     height: 400px;
@@ -95,7 +102,7 @@ header {
     margin-left: 30%;
 }
 
-.part2Box p {
+.partBox p {
     font-size: 20px;
     line-height: 3em;
     display: table-cell;
@@ -104,6 +111,3 @@ header {
     overflow-wrap: break-word;
 }
 
-.part3 p{
-    text-align: center;
-}
