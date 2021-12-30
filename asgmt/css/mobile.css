@@ -63,3 +63,12 @@ header {
 .productDetailBox p small {
     padding-top: 80px;
 }
+
+.partImg {
+    padding-top: 60px;
+    width: 100%;
+}
+
+.partBox {
+    padding-top: 40px;
+}
