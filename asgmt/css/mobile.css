@@ -33,15 +33,22 @@ header {
 
 .price {
     font-size: 25px;
+    padding-bottom: 40px;
 }
 
 .capacity {
     font-size: 20px;
-    margin-left: 20px;
+    margin-left: 300px;
+    margin-top: -20px;
 }
 
 .product {
     justify-content: center;
+}
+
+.buy {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .productDetailBox p {
@@ -52,4 +59,3 @@ header {
 .productDetailBox p small {
     padding-top: 80px;
 }
-
