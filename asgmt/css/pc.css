@@ -41,7 +41,11 @@ header {
 
 .productImg {
     width: 500px;
-    /* margin-left: 150px; */
+}
+
+.productDetail dd {
+    padding-top: 20px;
+    font-size: 35px;
 }
 
 .product {
@@ -85,8 +89,15 @@ header {
     background-image: url(../img/muji3.jpg);
 }
 
-.part {
+.partBg1 {
     background-size: 100% 600px;
+    background-repeat: no-repeat;
+    height: 700px;
+    padding-top: 400px;
+}
+
+.partBg2 {
+    background-position: top center;
     background-repeat: no-repeat;
     height: 700px;
     padding-top: 400px;
@@ -100,6 +111,17 @@ header {
     padding-left: 40px;
     padding-right: 40px;
     margin-left: 30%;
+}
+
+.partBox2 {
+    background-color: #CEF7FF;
+    width: 60%;
+    height: 400px;
+    display: table;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 30%;
+    margin-top: 100px;
 }
 
 .partBox p {
@@ -128,8 +150,17 @@ header {
     display: block;
     text-align: center;
     color: black;
-    padding-top: 200px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+    font-size: 26px;
+}
+
+.buyText {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    display: block;
+    text-align: center;
+    color: black;
+    padding-bottom: 50px;
     font-size: 26px;
 }
 
