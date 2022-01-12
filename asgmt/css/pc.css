@@ -168,8 +168,17 @@ footer {
     background-color: black;
     color: white;
     height: 200px;
+    padding-top: 60px;
 }
 
 .partImg {
     display: none;
+}
+
+.footerList {
+    padding-left: 80px;
+}
+
+.footerList li {
+    list-style-type: none;
 }

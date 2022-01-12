@@ -46,7 +46,7 @@ header {
     justify-content: center;
 }
 
-.buy {
+.buy, .buyText {
     margin-top: 40px;
     margin-bottom: 40px;
     color: black;
@@ -89,4 +89,14 @@ header {
 footer {
     background-color: black;
     color: white;
+    height: 200px;
+    padding-top: 100px;
+}
+
+.footerList {
+    padding-left: 80px;
+}
+
+.footerList li {
+    list-style-type: none;
 }
