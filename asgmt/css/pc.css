@@ -181,3 +181,18 @@ footer {
 .footerList li {
     list-style-type: none;
 }
+
+.btn--orange,
+a.btn--orange {
+    color: #fff;
+    background-color: #000000;
+}
+.btn--orange:hover,
+a.btn--orange:hover {
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+}
+
+a.btn--radius {
+    border-radius: 100vh;
+}
